@@ -1,3 +1,5 @@
+'use client'
+
 import React, { useState } from 'react';
 import { Phone, Clock, MapPin, Star, CheckCircle, Calendar, Snowflake, Wrench, ThermometerSun, Shield, Award, Users, Menu, X } from 'lucide-react';
 
