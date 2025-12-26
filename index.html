@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Orlando A/C &amp; Refrigeration</title>
+<!-- Tailwind CSS v3 with plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind Configuration -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Roboto', 'sans-serif'],
+          },
+          colors: {
+            'brand-blue': '#1e73be',
+            'brand-blue-dark': '#003366',
+            'brand-orange': '#f39c12',
+            'brand-btn-blue': '#2271b1',
+          }
+        }
+      }
+    }
+  </script>
+<!-- Custom Styles for specific layout nuances -->
+<style data-purpose="layout-adjustments">
+    /* Ensure the services section overlaps the hero nicely on desktop */
+    @media (min-width: 1024px) {
+      .services-overlap {
+        margin-top: -80px;
+        position: relative;
+        z-index: 10;
+      }
+    }
+    
+    /* Hero background overlay to ensure text readability */
+    .hero-overlay {
+      background: linear-gradient(to right, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0) 100%);
+    }
+
+    /* Remove default form styling for consistency */
+    select, input {
+      outline: none;
+    }
+  </style>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/></head>
+<body class="font-sans text-gray-800 antialiased">
+<!-- BEGIN: Header -->
+<header class="bg-white shadow-sm sticky top-0 z-50">
+<div class="container mx-auto px-4 py-3 flex flex-col lg:flex-row justify-between items-center gap-4 lg:gap-0">
+<!-- Logo Section -->
+<div class="flex items-center gap-3">
+<!-- Using a placeholder for the snowflake/water logo icon -->
+<img alt="Logo Icon" class="h-[60px] w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC47BX1cNgs5Re--rngBcqcJHGecMLSvow7_lh464M3b6LcJyu_XAhYbzgUio0qnjZwFW7rcC3wE9Oq-v4ZCPO7Im_EWf8XqI1L_-LuK0QuJ_0-4V_ek7rmVEByaoN1Jq1fZcfsxdUbM-iNUYg7ODAHiQLnv8lrjQVDPnHXRa8BvDbyBTR8AKES9DyF260ykd0Fb8HXeBGgU-dBFWNWWVUbJGhluxVXnEt3BOjLA00eJXA-lIhl7qCqcDyRB6YcBNBTTx91Wao0CmDf" style="border-radius: 50%;"/>
+<div class="flex flex-col leading-tight">
+<span class="text-xl font-bold text-brand-blue-dark">Orlando A/C &amp;</span>
+<span class="text-xl font-bold text-brand-blue-dark">Refrigeration</span>
+</div>
+</div>
+<!-- Navigation -->
+<nav>
+<ul class="flex items-center gap-6 text-sm font-medium text-gray-600">
+<li><a class="text-brand-blue border-b-2 border-brand-blue pb-1" href="#" style="border-bottom: 2px solid #005a9c; color: #005a9c;">Home</a></li>
+<li><a class="hover:text-brand-blue transition" href="#">Services</a></li>
+<li><a class="hover:text-brand-blue transition" href="#">About Us</a></li>
+<li><a class="hover:text-brand-blue transition" href="#">Financing</a></li>
+<li><a class="hover:text-brand-blue transition" href="#">Contact</a></li>
+</ul>
+</nav>
+<!-- CTA Button -->
+<div>
+<button class="bg-brand-orange hover:bg-orange-600 text-white font-bold py-2 px-6 rounded shadow transition duration-200" style="background-color: #f0ad4e;">
+          CALL NOW: (407) 555-0199
+        </button>
+</div>
+</div>
+</header>
+<!-- END: Header -->
+<!-- BEGIN: Main Content -->
+<main>
+<!-- BEGIN: Hero Section -->
+<section class="relative bg-gray-900 h-[600px]">
+<!-- Background Image -->
+<img alt="Technician working on AC unit" class="absolute inset-0 w-full h-full object-cover object-center" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBK_e2nob6UWLgcUMgRPSJX-bfjHrncVbTzPF3nQIMCjy25fjf1xVZ1EO5rr5FyNtpx3WjXdGaKh9Wvu38EdF0DGfgs2RWXknMEgB5GyXGWDnL9vQZc1J0EplxZ8PMMwNO7fq6nJo5jYEOWE9_PghPb5vnNKj3r0l8ZC1qbIg70x1sr9-HlV1qWsM0uJ3lsvezQXYYg8mIXr8axb_JMrWsVbjb1dETfUJfCxLVM8voM8Yfny_hbgGiUO8dqb_PgUI8AXB-Dz4BcfYEE"/>
+<!-- Overlay for text readability -->
+<div class="absolute inset-0 hero-overlay" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));"></div>
+<!-- Hero Content -->
+<div class="relative container mx-auto px-4 h-full flex items-center">
+<div class="text-white pt-10 max-w-[60%]">
+<h1 class="text-4xl md:text-5xl leading-tight mb-6 drop-shadow-md font-extrabold" style="font-size: 3rem;">
+            Cool Your Home &amp; Business Today! Fast, Reliable AC &amp; Refrigeration Service in Orlando.
+          </h1>
+<div class="flex flex-col items-start gap-4">
+<button class="hover:bg-blue-700 text-white font-bold py-3 px-8 rounded shadow-lg uppercase tracking-wide transition transform hover:scale-105" style="background-color: #1e73be !important; color: white; padding: 10px 20px; border: none; border-radius: 4px; font-weight: bold; text-transform: uppercase;">
+              Book Your Service Now!
+            </button>
+<p class="text-white text-lg font-medium drop-shadow-md">
+              Free Estimates on New Installations
+            </p>
+</div>
+</div>
+</div>
+</section>
+<!-- END: Hero Section -->
+<!-- BEGIN: Services Section -->
+<!-- This section uses a negative margin on desktop to overlap the hero image slightly, matching the design -->
+<section class="bg-brand-blue pb-16 pt-8 lg:pt-0" style="background-color: #0f6cb3; padding: 4rem 0;">
+<div class="container mx-auto px-4 services-overlap">
+<!-- Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Card 1: Residential -->
+<article class="bg-white rounded shadow-xl overflow-hidden flex flex-col">
+<div class="h-48 bg-gray-200">
+<!-- Placeholder for AC Unit Image -->
+<img alt="Residential AC Unit" class="w-full h-[200px] object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9W2WEJq4N-PkHRstp9utXGUFK3MsHPMqsfGA0VsWAY11PSiiJ6s3ADCeYxNTuU8qn1_Ea6xX2WYDoMoEWMFPPzxf3tMXENePEBzl5Ck3usk9Mtyq8nYb9ght5C05DikVeWE7nxo1aQBOVh44XjoLCgPt_URCJ37rz8kWfBC1PgP9wXHErtVtqX4ItdTqwTcZm1g_1z0cIt2sgCL_8osHokU5AOcpVW8xenAxtceHLrPejnEZ_qSoumkMtd0GCnuY9hBZp0Gh5TpwV"/>
+</div>
+<div class="p-6 flex-grow flex flex-col text-center">
+<h3 class="font-bold text-gray-800 text-lg mb-3 uppercase">Residential A/C Installation</h3>
+<p class="text-sm text-gray-600 mb-6 flex-grow">
+                Upgrade to energy-efficient systems. Expert installation for perfect home comfort.
+              </p>
+<div>
+<button class="border-2 border-gray-400 text-gray-700 font-bold py-2 px-6 rounded hover:bg-gray-100 transition uppercase text-sm" style="background-color: transparent; border: 1px solid #333; color: #333; padding: 8px 16px; font-weight: bold; font-size: 0.9rem; text-transform: uppercase; width: auto; display: inline-block;">
+                  Get a Quote
+                </button>
+</div>
+</div>
+</article>
+<!-- Card 2: Service Call -->
+<article class="bg-white rounded shadow-xl overflow-hidden flex flex-col">
+<div class="h-48 bg-gray-200">
+<!-- Placeholder for Technician Image -->
+<img alt="AC Technician" class="w-full h-[200px] object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA_outWfrchna5Vd0jiw3bBEdDDBoGI-6LZ3dN9rogYEAhy-8rNaxnJPuKjPpgLv26D5Dl0u1uSiLw9wSl2YEFw5HLO5cN_jk0ZiOpgKA1APnEUvAJpjIv-l6FGN17mvoDuTU67uQ7Bn9ygxi3lLd-40Qc5vd1bu6f65obgqqkW_in3k5jMmyLdLgtTZvR456eF-SlS45uAdMCxZFWA_88h8Q9jkC0KUrI2ef2PP7Mzk44SIfyNYAnD9FH9Q0eY26TsYADsEh-iOTCe"/>
+</div>
+<div class="p-6 flex-grow flex flex-col text-center">
+<h3 class="font-bold text-gray-800 text-lg mb-3 uppercase">A/C Service Call</h3>
+<p class="text-sm text-gray-600 mb-6 flex-grow">
+                Immediate repairs &amp; maintenance. Keeping your cool when it matters most.
+              </p>
+<div>
+<button class="border-2 border-gray-400 text-gray-700 font-bold py-2 px-6 rounded hover:bg-gray-100 transition uppercase text-sm" style="background-color: transparent; border: 1px solid #333; color: #333; padding: 8px 16px; font-weight: bold; font-size: 0.9rem; text-transform: uppercase; width: auto; display: inline-block;">
+                  Schedule Repair
+                </button>
+</div>
+</div>
+</article>
+<!-- Card 3: Refrigeration -->
+<article class="bg-white rounded shadow-xl overflow-hidden flex flex-col">
+<div class="h-48 bg-gray-200">
+<!-- Placeholder for Commercial Fridge Image -->
+<img alt="Commercial Refrigeration" class="w-full h-[200px] object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA691f3HTdEhUIc6OtWOtu4n9Wov5w5XWYXKg6weKBkts90ggMjgXIvngeWhGyCqfoDNhy08ronfgxqLL3enacJ4PbF8H24wGSDutLdHInm7hqqIgCgXgP0PKlQg-nCmv8RiwNZZfpA4Qnm392DXTtiJY_glz6NKAQtheVVVrRriYCjbQk8jyeGoGNYLx__nqrvGatFdjFXZISH6BhQqXd7xpZIJUiwkKcDGwIvz7JOePGCIfKNKPsTqB2U3QuyJH0RhyhupvaDB2ga"/>
+</div>
+<div class="p-6 flex-grow flex flex-col text-center">
+<h3 class="font-bold text-gray-800 text-lg mb-3 uppercase">Refrigeration Service</h3>
+<p class="text-sm text-gray-600 mb-6 flex-grow">
+                Commercial refrigeration solutions. Prevent costly downtime.
+              </p>
+<div>
+<button class="border-2 border-gray-400 text-gray-700 font-bold py-2 px-6 rounded hover:bg-gray-100 transition uppercase text-sm" style="background-color: transparent; border: 1px solid #333; color: #333; padding: 8px 16px; font-weight: bold; font-size: 0.9rem; text-transform: uppercase; width: auto; display: inline-block;">
+                  Request Service
+                </button>
+</div>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- END: Services Section -->
+<!-- BEGIN: Trust Signals Bar -->
+<section class="bg-gray-100 border-b border-gray-300">
+<div class="container mx-auto px-4 py-3 text-center" style="padding-top: 15px; padding-bottom: 15px;">
+<p class="font-bold text-sm md:text-base" style="color: #005a9c;">
+<span class="text-brand-blue-dark font-extrabold mr-1">TRUST SIGNALS:</span>
+          10-Year Warranty on Parts <span class="mx-2 text-gray-400">|</span> 
+          Flexible Financing Options <span class="mx-2 text-gray-400">|</span> 
+          5-Star Google Ratings
+        </p>
+</div>
+</section>
+<!-- END: Trust Signals Bar -->
+</main>
+<!-- END: Main Content -->
+<!-- BEGIN: Footer / Contact Section -->
+<footer class="text-white py-12 pb-16" style="background-color: #002855;">
+<div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-10">
+<!-- Contact Info Column -->
+<div class="flex flex-col justify-center space-y-6">
+<h2 class="text-xl font-bold uppercase tracking-wider mb-2">Contact Us</h2>
+<div class="flex items-start gap-4">
+<!-- Location Icon -->
+<i class="fas fa-map-marker-alt text-white mt-1 text-xl"></i>
+<div>
+<p>123 Orange Ave,</p>
+<p>Orlando, FL 32801</p>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<!-- Phone Icon -->
+<i class="fas fa-phone text-white text-xl"></i>
+<p>(407) 555-0199</p>
+</div>
+<div class="flex items-center gap-4">
+<!-- Mail Icon -->
+<i class="fas fa-envelope text-white text-xl"></i>
+<p>info@orlandoac.com</p>
+</div>
+</div>
+<!-- Contact Form Column -->
+<div class="bg-opacity-0">
+<form class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="col-span-1">
+<input class="w-full px-4 py-2 rounded bg-white text-gray-800 placeholder-gray-500 border border-transparent focus:border-brand-blue focus:ring-2 focus:ring-brand-blue" placeholder="Name" type="text"/>
+</div>
+<div class="col-span-1">
+<input class="w-full px-4 py-2 rounded bg-white text-gray-800 placeholder-gray-500 border border-transparent focus:border-brand-blue focus:ring-2 focus:ring-brand-blue" placeholder="Phone" type="tel"/>
+</div>
+<div class="col-span-1 md:col-span-2">
+<input class="w-full px-4 py-2 rounded bg-white text-gray-800 placeholder-gray-500 border border-transparent focus:border-brand-blue focus:ring-2 focus:ring-brand-blue" placeholder="Email" type="email"/>
+</div>
+<div class="col-span-1">
+<select class="w-full px-4 py-2 rounded bg-white text-gray-800 border border-transparent focus:border-brand-blue focus:ring-2 focus:ring-brand-blue">
+<option disabled="" selected="" value="">Service Type</option>
+<option value="repair">AC Repair</option>
+<option value="installation">Installation</option>
+<option value="refrigeration">Refrigeration</option>
+<option value="maintenance">Maintenance</option>
+</select>
+</div>
+<div class="col-span-1">
+<button class="w-full hover:bg-blue-600 text-white font-bold py-2 rounded transition shadow-md uppercase text-sm tracking-wide h-full" style="background-color: #1e73be; width: 100%;" type="button">
+              Submit Request
+            </button>
+</div>
+</form>
+</div>
+</div>
+</footer>
+<!-- END: Footer / Contact Section -->
+</body></html>
