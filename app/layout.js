@@ -1,3 +1,5 @@
+import "./globals.css";  // IMPORTANTE para aplicar o Tailwind
+
 export const metadata = {
   title: 'Orlando Air Conditioning | AC Repair & Installation',
   description: 'Professional AC installation and repair services in Orlando, FL. Same day service available. Call 407-489-1867',
