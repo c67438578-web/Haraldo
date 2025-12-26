@@ -1,6 +1,6 @@
 {
-  "name": "orlando-ac-website",
-  "version": "1.0.0",
+  "name": "haraldo",
+  "version": "0.1.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
