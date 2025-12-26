@@ -1,4 +1,4 @@
-import './globals.css'; // <- necessário para Tailwind funcionar
+import './globals.css';
 
 export const metadata = {
   title: 'Orlando Air Conditioning | AC Repair & Installation',
