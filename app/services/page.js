@@ -179,7 +179,8 @@ export default function ServicesPage() {
               </p>
             </div>
 
-            <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+            <div className="text-center p-6">
+              <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-3xl">💯</span>
               </div>
               <h3 className="text-xl font-bold mb-2">Satisfaction Guaranteed</h3>
