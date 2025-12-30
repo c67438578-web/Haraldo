@@ -56,7 +56,7 @@ export default function HomePage() {
     <main className="min-h-screen bg-white overflow-hidden">
       {/* Floating CTA Button */}
       <div className={`fixed bottom-6 right-6 z-50 transition-all duration-500 ${showFloatingCTA ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'}`}>
-        <a href="tel:+14074891867" className="flex items-center gap-2 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-6 py-4 rounded-full shadow-2xl hover:shadow-red-500/50 transition-all duration-300 transform hover:scale-105">
+        <a href="tel:4074891867" className="flex items-center gap-2 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-6 py-4 rounded-full shadow-2xl hover:shadow-red-500/50 transition-all duration-300 transform hover:scale-105">
           <Phone className="w-5 h-5 animate-pulse" />
           <span className="font-bold">Call Now</span>
         </a>
@@ -92,7 +92,7 @@ export default function HomePage() {
                 Contact Us
                 <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </a>
-              <a href="tel:+14074891867" className="bg-white hover:bg-gray-100 text-blue-900 px-8 py-4 rounded-lg font-bold text-lg transition-all transform hover:scale-105 shadow-xl text-center flex items-center justify-center gap-2">
+              <a href="tel:4074891867" className="bg-white hover:bg-gray-100 text-blue-900 px-8 py-4 rounded-lg font-bold text-lg transition-all transform hover:scale-105 shadow-xl text-center flex items-center justify-center gap-2">
                 <Phone className="w-5 h-5" />
                 (407) 489-1867
               </a>
@@ -306,7 +306,7 @@ export default function HomePage() {
           <h2 className="text-3xl md:text-4xl font-black mb-4">Ready to Experience the Orlando AC Difference?</h2>
           <p className="text-red-100 text-lg mb-8">Contact us today for same-day service and free estimates!</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:+14074891867" className="inline-flex items-center justify-center gap-2 bg-white text-red-600 hover:bg-gray-100 px-10 py-5 rounded-lg font-bold text-lg transition-all transform hover:scale-105 shadow-2xl">
+            <a href="tel:4074891867" className="inline-flex items-center justify-center gap-2 bg-white text-red-600 hover:bg-gray-100 px-10 py-5 rounded-lg font-bold text-lg transition-all transform hover:scale-105 shadow-2xl">
               <Phone className="w-6 h-6" />
               Call (407) 489-1867
             </a>
