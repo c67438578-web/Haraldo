@@ -239,8 +239,8 @@ export default function ServicesPage() {
                   ))}
                 </div>
 
-                <Link
-                  href="/contact"
+                <a
+                  href="tel:4074891867"
                   className={`block text-center py-3 px-6 rounded-lg font-semibold transition ${
                     plan.popular
                       ? 'bg-blue-600 text-white hover:bg-blue-700'
@@ -248,7 +248,7 @@ export default function ServicesPage() {
                   }`}
                 >
                   Get Started
-                </Link>
+                </a>
               </div>
             ))}
           </div>
@@ -292,18 +292,18 @@ export default function ServicesPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="tel:407-489-1867"
+              href="tel:4074891867"
               className="bg-white hover:bg-gray-100 text-blue-900 font-bold py-4 px-8 rounded-full text-lg inline-flex items-center justify-center gap-2 transition"
             >
               <Phone size={24} />
               407-489-1867
             </a>
-            <Link 
-              href="/contact"
+            <a 
+              href="tel:4074891867"
               className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded-full text-lg transition"
             >
               Request Service Online
-            </Link>
+            </a>
           </div>
         </div>
       </section>
