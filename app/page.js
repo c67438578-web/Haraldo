@@ -165,10 +165,10 @@ export default function HomePage() {
               <p className="text-gray-600 leading-relaxed mb-6 text-lg">
                 Call us at <strong className="text-blue-600 text-xl">(407) 489-1867</strong> any time. We answer 24/7 to provide scheduling for your comfort.
               </p>
-              <button className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-8 py-4 rounded-lg font-bold transition-all transform hover:scale-105 shadow-lg hover:shadow-blue-500/50">
+              <a href="#about" className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-8 py-4 rounded-lg font-bold transition-all transform hover:scale-105 shadow-lg hover:shadow-blue-500/50">
                 Learn More About Us
                 <ChevronRight className="w-5 h-5" />
-              </button>
+              </a>
             </div>
             <div className="grid gap-6">
               {services.map((service, index) => (
@@ -279,7 +279,7 @@ export default function HomePage() {
               <p className="text-blue-100 text-xl mb-8 leading-relaxed">
                 Serving Orlando families since 1997 with top-notch HVAC products and services. Your comfort is our priority.
               </p>
-              <a href="tel:+14074891867" className="inline-flex items-center gap-2 bg-white text-blue-900 hover:bg-gray-100 px-10 py-5 rounded-lg font-bold transition-all transform hover:scale-105 shadow-2xl text-lg">
+              <a href="#contact" className="inline-flex items-center gap-2 bg-white text-blue-900 hover:bg-gray-100 px-10 py-5 rounded-lg font-bold transition-all transform hover:scale-105 shadow-2xl text-lg">
                 Request Service
                 <ChevronRight className="w-5 h-5" />
               </a>
@@ -310,9 +310,9 @@ export default function HomePage() {
               <Phone className="w-6 h-6" />
               Call (407) 489-1867
             </a>
-            <button className="border-2 border-white hover:bg-white hover:text-red-600 px-10 py-5 rounded-lg font-bold text-lg transition-all transform hover:scale-105">
+            <a href="#contact" className="border-2 border-white hover:bg-white hover:text-red-600 px-10 py-5 rounded-lg font-bold text-lg transition-all transform hover:scale-105">
               Schedule Online
-            </button>
+            </a>
           </div>
         </div>
       </section>
