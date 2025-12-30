@@ -56,7 +56,7 @@ export default function HomePage() {
     <main className="min-h-screen bg-white overflow-hidden">
       {/* Floating CTA Button */}
       <div className={`fixed bottom-6 right-6 z-50 transition-all duration-500 ${showFloatingCTA ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'}`}>
-        <a href="tel:407-489-1867" className="flex items-center gap-2 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-6 py-4 rounded-full shadow-2xl hover:shadow-red-500/50 transition-all duration-300 transform hover:scale-105">
+        <a href="tel:+14074891867" className="flex items-center gap-2 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-6 py-4 rounded-full shadow-2xl hover:shadow-red-500/50 transition-all duration-300 transform hover:scale-105">
           <Phone className="w-5 h-5 animate-pulse" />
           <span className="font-bold">Call Now</span>
         </a>
@@ -88,17 +88,17 @@ export default function HomePage() {
               Orlando AC is an HVAC company founded on the satisfaction and loyalty of our customers. Over 28 years of service, we've built relationships by exceeding expectations.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="group bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all transform hover:scale-105 shadow-xl hover:shadow-red-500/50 flex items-center justify-center gap-2">
+              <a href="#contact" className="group bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all transform hover:scale-105 shadow-xl hover:shadow-red-500/50 flex items-center justify-center gap-2">
                 Contact Us
                 <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </button>
-              <a href="tel:407-489-1867" className="bg-white hover:bg-gray-100 text-blue-900 px-8 py-4 rounded-lg font-bold text-lg transition-all transform hover:scale-105 shadow-xl text-center flex items-center justify-center gap-2">
+              </a>
+              <a href="tel:+14074891867" className="bg-white hover:bg-gray-100 text-blue-900 px-8 py-4 rounded-lg font-bold text-lg transition-all transform hover:scale-105 shadow-xl text-center flex items-center justify-center gap-2">
                 <Phone className="w-5 h-5" />
                 (407) 489-1867
               </a>
-              <button className="border-2 border-white hover:bg-white hover:text-blue-900 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all text-center">
+              <a href="#services" className="border-2 border-white hover:bg-white hover:text-blue-900 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all text-center">
                 Our Services
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -156,7 +156,7 @@ export default function HomePage() {
       </section>
 
       {/* Services Section - Enhanced */}
-      <section className="py-20 bg-gradient-to-br from-gray-50 to-gray-100">
+      <section id="services" className="py-20 bg-gradient-to-br from-gray-50 to-gray-100">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -266,7 +266,7 @@ export default function HomePage() {
       </section>
 
       {/* Professional Section - Enhanced */}
-      <section className="py-20 bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 text-white relative overflow-hidden">
+      <section id="contact" className="py-20 bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0" style={{ 
             backgroundImage: 'radial-gradient(circle at 70% 30%, rgba(255,255,255,0.15) 0%, transparent 50%)',
@@ -279,10 +279,10 @@ export default function HomePage() {
               <p className="text-blue-100 text-xl mb-8 leading-relaxed">
                 Serving Orlando families since 1997 with top-notch HVAC products and services. Your comfort is our priority.
               </p>
-              <button className="inline-flex items-center gap-2 bg-white text-blue-900 hover:bg-gray-100 px-10 py-5 rounded-lg font-bold transition-all transform hover:scale-105 shadow-2xl text-lg">
+              <a href="tel:+14074891867" className="inline-flex items-center gap-2 bg-white text-blue-900 hover:bg-gray-100 px-10 py-5 rounded-lg font-bold transition-all transform hover:scale-105 shadow-2xl text-lg">
                 Request Service
                 <ChevronRight className="w-5 h-5" />
-              </button>
+              </a>
             </div>
             <div className="bg-white/10 backdrop-blur-xl p-10 rounded-2xl border border-white/20 shadow-2xl">
               <h3 className="text-3xl font-black mb-2">License #CAC057552</h3>
@@ -306,7 +306,7 @@ export default function HomePage() {
           <h2 className="text-3xl md:text-4xl font-black mb-4">Ready to Experience the Orlando AC Difference?</h2>
           <p className="text-red-100 text-lg mb-8">Contact us today for same-day service and free estimates!</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:407-489-1867" className="inline-flex items-center justify-center gap-2 bg-white text-red-600 hover:bg-gray-100 px-10 py-5 rounded-lg font-bold text-lg transition-all transform hover:scale-105 shadow-2xl">
+            <a href="tel:+14074891867" className="inline-flex items-center justify-center gap-2 bg-white text-red-600 hover:bg-gray-100 px-10 py-5 rounded-lg font-bold text-lg transition-all transform hover:scale-105 shadow-2xl">
               <Phone className="w-6 h-6" />
               Call (407) 489-1867
             </a>
