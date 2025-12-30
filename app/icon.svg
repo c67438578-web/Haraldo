@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <rect width="100" height="100" fill="#2563eb" rx="20"/>
+  <g transform="translate(50, 50)">
+    <!-- Center circle -->
+    <circle cx="0" cy="0" r="4" fill="white"/>
+    
+    <!-- Main branches (6 directions) -->
+    <line x1="0" y1="-4" x2="0" y2="-24" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="0" y1="4" x2="0" y2="24" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="-20.8" y1="-12" x2="-3.5" y2="-2" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="20.8" y1="12" x2="3.5" y2="2" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="-20.8" y1="12" x2="-3.5" y2="2" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="20.8" y1="-12" x2="3.5" y2="-2" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+    
+    <!-- Branch details - Top -->
+    <line x1="-3" y1="-18" x2="-6" y2="-15" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="3" y1="-18" x2="6" y2="-15" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="-3" y1="-12" x2="-6" y2="-9" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="3" y1="-12" x2="6" y2="-9" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    
+    <!-- Branch details - Bottom -->
+    <line x1="-3" y1="18" x2="-6" y2="15" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="3" y1="18" x2="6" y2="15" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="-3" y1="12" x2="-6" y2="9" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="3" y1="12" x2="6" y2="9" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    
+    <!-- Branch details - Upper left -->
+    <line x1="-15" y1="-10" x2="-13" y2="-13" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="-18" y1="-8" x2="-21" y2="-9" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="-9" y1="-7" x2="-7" y2="-10" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="-12" y1="-5" x2="-15" y2="-3" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    
+    <!-- Branch details - Upper right -->
+    <line x1="15" y1="-10" x2="13" y2="-13" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="18" y1="-8" x2="21" y2="-9" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="9" y1="-7" x2="7" y2="-10" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="12" y1="-5" x2="15" y2="-3" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    
+    <!-- Branch details - Lower left -->
+    <line x1="-15" y1="10" x2="-13" y2="13" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="-18" y1="8" x2="-21" y2="9" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="-9" y1="7" x2="-7" y2="10" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="-12" y1="5" x2="-15" y2="3" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    
+    <!-- Branch details - Lower right -->
+    <line x1="15" y1="10" x2="13" y2="13" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="18" y1="8" x2="21" y2="9" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="9" y1="7" x2="7" y2="10" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="12" y1="5" x2="15" y2="3" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+</svg>
