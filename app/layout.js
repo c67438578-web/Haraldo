@@ -7,17 +7,21 @@ export const metadata = {
   description: 'Professional air conditioning repair, installation, and maintenance in Orlando, FL. Same day service guaranteed. Licensed & Insured. Call (407) 489-1867.',
   keywords: ['AC Repair Orlando', 'HVAC Orlando', 'Air Conditioning Installation Orlando', 'Emergency AC Repair FL'],
   alternates: {
-    canonical: 'https://www.orlandocooling.com', // Substitua pelo seu domínio futuro
+    canonical: 'https://orlandoaircond.com',
+  },
+  // CONFIGURAÇÃO DO FAVICON AQUI
+  icons: {
+    icon: 'https://agzxythrwhlpvptlsepv.supabase.co/storage/v1/object/public/Orlando%20Air%20cond/C79E6ABC-4BBF-44C8-91EF-EACB8E43CD3F.png',
+    apple: 'https://agzxythrwhlpvptlsepv.supabase.co/storage/v1/object/public/Orlando%20Air%20cond/C79E6ABC-4BBF-44C8-91EF-EACB8E43CD3F.png',
   },
 }
 
 export default function RootLayout({ children }) {
-  // JSON-LD para SEO Local (HVAC Business)
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "HVACBusiness",
     "name": "Orlando AC",
-    "image": "https://www.orlandocooling.com/logo.png", // Atualize após o deploy
+    "image": "https://agzxythrwhlpvptlsepv.supabase.co/storage/v1/object/public/Orlando%20Air%20cond/C79E6ABC-4BBF-44C8-91EF-EACB8E43CD3F.png",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "123 Orange Ave",
@@ -100,7 +104,6 @@ export default function RootLayout({ children }) {
               </Link>
             </nav>
 
-            {/* Mobile Menu Icon (Placeholder para funcionalidade futura) */}
             <button className="md:hidden p-2 text-gray-600">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16m-7 6h7" />
@@ -109,7 +112,6 @@ export default function RootLayout({ children }) {
           </div>
         </header>
 
-        {/* CONTEÚDO DA PÁGINA */}
         {children}
 
         {/* FOOTER */}
