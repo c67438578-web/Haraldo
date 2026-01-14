@@ -9,11 +9,8 @@ export const metadata = {
   alternates: {
     canonical: 'https://orlandoaircond.com',
   },
-  // CONFIGURAÇÃO DO FAVICON AQUI
-  icons: {
-    icon: 'https://agzxythrwhlpvptlsepv.supabase.co/storage/v1/object/public/Orlando%20Air%20cond/C79E6ABC-4BBF-44C8-91EF-EACB8E43CD3F.png',
-    apple: 'https://agzxythrwhlpvptlsepv.supabase.co/storage/v1/object/public/Orlando%20Air%20cond/C79E6ABC-4BBF-44C8-91EF-EACB8E43CD3F.png',
-  },
+  // O Next.js detectará automaticamente o arquivo icon.svg na pasta /app
+  // Não é necessário declarar icons: {} manualmente aqui se os arquivos estiverem na pasta raiz
 }
 
 export default function RootLayout({ children }) {
