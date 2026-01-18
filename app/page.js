@@ -285,8 +285,8 @@ export default function HomePage() {
               </a>
             </div>
             <div className="bg-white/10 backdrop-blur-xl p-10 rounded-2xl border border-white/20 shadow-2xl">
-              <h3 className="text-3xl font-black mb-2">License #CAC057552</h3>
-              <p className="text-blue-200 mb-8 text-lg italic">Fully Licensed & Insured</p>
+              <h3 className="text-3xl font-black mb-2">Fully Licensed & Insured</h3>
+              <p className="text-blue-200 mb-8 text-lg italic"></p>
               <div className="grid grid-cols-1 gap-4">
                 {['24/7 Emergency Support', 'Licensed & Insured', 'Same Day Service', 'Free Estimates'].map((item, i) => (
                   <div key={i} className="flex items-center gap-3 bg-white/5 p-4 rounded-lg backdrop-blur-sm hover:bg-white/10 transition-all">
