@@ -118,7 +118,7 @@ export default function RootLayout({ children }) {
               <Snowflake className="w-10 h-10 text-blue-500" />
             </div>
             <p className="text-gray-400 mb-4 max-w-md mx-auto">
-              Trusted HVAC experts in Central Florida. License #CAC057552. Providing comfort to Orlando homes since 1997.
+              Trusted HVAC experts in Central Florida. Providing comfort to Orlando homes since 1997.
             </p>
             <div className="border-t border-gray-800 pt-8 mt-8">
               <p className="text-sm text-gray-500">
