@@ -146,7 +146,7 @@ export default function ContactPage() {
                     <Phone className="text-blue-600" size={24} />
                   </div>
                   <div>
-                    <p className="font-semibold text-gray-800 text-lg">407-489-1867</p>
+                    <p className="font-semibold text-gray-800 text-lg">407-489-1864</p>
                     <p className="text-sm text-gray-600">Sales & Service</p>
                     <p className="font-semibold text-gray-800 text-lg mt-2">321-972-8005</p>
                     <p className="text-sm text-gray-600">Emergency 24/7</p>
