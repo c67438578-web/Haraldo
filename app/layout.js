@@ -44,7 +44,7 @@ export default function RootLayout({ children }) {
               <span>24/7 Emergency Service Available</span>
             </div>
             <div className="flex gap-4 font-bold">
-              <a href="tel:4074891867" className="hover:text-blue-300 transition flex items-center gap-1">
+              <a href="tel:4074891864" className="hover:text-blue-300 transition flex items-center gap-1">
                 <Phone size={14} /> 407-489-1864
               </a>
             </div>
