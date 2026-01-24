@@ -159,7 +159,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <p className="font-semibold text-gray-800">Email:</p>
-                    <a href="mailto:info@orlandocooling.com" className="text-blue-600 hover:underline">
+                    <a href="mailto:contac@rapidproservices.com" className="text-blue-600 hover:underline">
                       info@orlandocooling.com
                     </a>
                   </div>
