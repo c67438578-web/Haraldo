@@ -21,7 +21,7 @@ export default function HomePage() {
   const services = [
     { icon: <Wind className="w-12 h-12" />, title: "Indoor Air Quality", desc: "Breathing well is something we tend to take for granted, but for many clean air is essential." },
     { icon: <Wrench className="w-12 h-12" />, title: "A/C Service", desc: "We service all makes, models, styles, and ages of A/C units." },
-    { icon: <Shield className="w-12 h-12" />, title: "Replacement Estimate", desc: "For more information, contact Orlando AC at (407) 489-1867." }
+    { icon: <Shield className="w-12 h-12" />, title: "Replacement Estimate", desc: "For more information, contact Orlando AC at (407) 489-1864." }
   ];
 
   const reviews = [
