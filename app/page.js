@@ -56,7 +56,7 @@ export default function HomePage() {
     <main className="min-h-screen bg-white overflow-hidden">
       {/* Floating CTA Button */}
       <div className={`fixed bottom-6 right-6 z-50 transition-all duration-500 ${showFloatingCTA ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'}`}>
-        <a href="tel:4074891867" className="flex items-center gap-2 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-6 py-4 rounded-full shadow-2xl hover:shadow-red-500/50 transition-all duration-300 transform hover:scale-105">
+        <a href="tel:4074891864" className="flex items-center gap-2 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-6 py-4 rounded-full shadow-2xl hover:shadow-red-500/50 transition-all duration-300 transform hover:scale-105">
           <Phone className="w-5 h-5 animate-pulse" />
           <span className="font-bold">Call Now</span>
         </a>
