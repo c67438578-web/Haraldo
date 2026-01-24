@@ -172,8 +172,8 @@ export default function ContactPage() {
                   <div>
                     <p className="font-semibold text-gray-800">Address:</p>
                     <p className="text-gray-600">
-                      123 Orange Ave<br />
-                      Orlando, FL 32801
+                      478 E. Altamonte Dr 108-715<br />
+                      Altamonte Springs, FL 32701
                     </p>
                   </div>
                 </div>
