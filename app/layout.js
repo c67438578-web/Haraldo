@@ -5,7 +5,7 @@ import Header from '../components/Header' // <--- Certifique-es que este caminho
 
 export const metadata = {
   title: 'Orlando AC Repair & Installation | Same Day Service 24/7',
-  description: 'Professional air conditioning repair, installation, and maintenance in Orlando, FL. Same day service guaranteed. Licensed & Insured. Call (407) 489-1867.',
+  description: 'Professional air conditioning repair, installation, and maintenance in Orlando, FL. Same day service guaranteed. Licensed & Insured. Call (407) 489-1864.',
   keywords: ['AC Repair Orlando', 'HVAC Orlando', 'Air Conditioning Installation Orlando', 'Emergency AC Repair FL'],
   alternates: { canonical: 'https://orlandoaircond.com' },
 }
