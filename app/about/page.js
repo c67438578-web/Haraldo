@@ -309,7 +309,7 @@ export default function AboutPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="tel:407-489-1867"
+              href="tel:407-489-1864"
               className="bg-white hover:bg-gray-100 text-blue-900 font-bold py-4 px-8 rounded-full text-lg inline-flex items-center justify-center gap-2 transition"
             >
               <Phone size={24} />
