@@ -308,7 +308,7 @@ export default function HomePage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:4074891867" className="inline-flex items-center justify-center gap-2 bg-white text-red-600 hover:bg-gray-100 px-10 py-5 rounded-lg font-bold text-lg transition-all transform hover:scale-105 shadow-2xl">
               <Phone className="w-6 h-6" />
-              Call (407) 489-1867
+              Call (407) 489-1864
             </a>
             <a href="#contact" className="border-2 border-white hover:bg-white hover:text-red-600 px-10 py-5 rounded-lg font-bold text-lg transition-all transform hover:scale-105">
               Schedule Online
