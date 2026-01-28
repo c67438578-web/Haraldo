@@ -42,7 +42,7 @@ export default function HomePage() {
   const whyChooseUs = [
     { icon: <BadgeCheck className="w-10 h-10" />, title: "Licensed & Certified", desc: "Fully licensed  and insured professionals" },
     { icon: <Zap className="w-10 h-10" />, title: "Same Day Service", desc: "Fast response times for your urgent needs" },
-    { icon: <TrendingUp className="w-10 h-10" />, title: "Best Prices", desc: "$0 down financing available with approved credit" },
+    { icon: <TrendingUp className="w-10 h-10" />, title: "Best Prices", desc: "Air Conditioning " },
     { icon: <Sparkles className="w-10 h-10" />, title: "Quality Guarantee", desc: "100% satisfaction guaranteed on all work" }
   ];
 
