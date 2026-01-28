@@ -85,7 +85,7 @@ export default function HomePage() {
               Schedule Now for SAME DAY Service!
             </p>
             <p className="text-lg text-blue-200 mb-8 leading-relaxed">
-              Orlando AC is an HVAC company founded on the satisfaction and loyalty of our customers. Over 28 years of service, we've built relationships by exceeding expectations.
+              Orlando AC is a trusted HVAC company in Orlando, FL. For over 28 years, we’ve delivered reliable AC repair, installation, and maintenance while building long-term customer relationships through exceptional service..
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="#contact" className="group bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all transform hover:scale-105 shadow-xl hover:shadow-red-500/50 flex items-center justify-center gap-2">
