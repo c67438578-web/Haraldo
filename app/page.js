@@ -79,7 +79,7 @@ export default function HomePage() {
               Air Conditioning 
             </div>
             <h1 className="text-5xl md:text-7xl font-black mb-6 leading-tight">
-              Our Service Is Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-200">Comfort!</span>
+               Trusted AC Repair & Installation in <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-200">Comfort!</span>
             </h1>
             <p className="text-2xl text-blue-100 mb-4 font-semibold">
               Schedule Now for SAME DAY Service!
