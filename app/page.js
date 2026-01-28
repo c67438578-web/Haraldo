@@ -76,7 +76,7 @@ export default function HomePage() {
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 bg-gradient-to-r from-yellow-400 to-yellow-500 text-gray-900 px-6 py-3 rounded-full text-sm font-bold mb-6 shadow-lg hover:shadow-yellow-500/50 transition-shadow">
               <Sparkles className="w-4 h-4" />
-              $0 Down financing for 60 months, with approved credit
+              Air Conditioning 
             </div>
             <h1 className="text-5xl md:text-7xl font-black mb-6 leading-tight">
               Our Service Is Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-200">Comfort!</span>
