@@ -123,12 +123,12 @@ export default function HomePage() {
                   <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </a>
                 <a
-                  href="tel:4074891867"
+                  href="tel:4074891834"
                   onClick={() => trackEvent('phone_click')}
                   className="bg-white hover:bg-gray-100 text-blue-900 px-8 py-4 rounded-lg font-bold text-lg transition-all transform hover:scale-105 shadow-xl text-center flex items-center justify-center gap-2"
                 >
                   <Phone className="w-5 h-5" />
-                  (407) 489-1864
+                  (407) 489-1834
                 </a>
                 <a
                   href="#services"
