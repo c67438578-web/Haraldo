@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
       "addressCountry": "US"
     },
     "geo": { "@type": "GeoCoordinates", "latitude": 28.5383, "longitude": -81.3792 },
-    "telephone": "+14074891864",
+    "telephone": "+14074891834",
     "priceRange": "$$"
   };
 
@@ -45,7 +45,7 @@ export default function RootLayout({ children }) {
             </div>
             <div className="flex gap-4 font-bold">
               <a href="tel:4074891864" className="hover:text-blue-300 transition flex items-center gap-1">
-                <Phone size={14} /> 407-489-1864
+                <Phone size={14} /> 407-489-1834
               </a>
             </div>
           </div>
@@ -65,7 +65,7 @@ export default function RootLayout({ children }) {
         </footer>
 
         {/* WHATSAPP */}
-        <a href="https://wa.me/14074891864" className="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-2xl z-50 flex items-center gap-2 group">
+        <a href="https://wa.me/14074891834" className="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-2xl z-50 flex items-center gap-2 group">
           <MessageCircle size={28} />
           <span className="max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-500 font-bold px-0 group-hover:px-2">Emergency Chat</span>
         </a>
