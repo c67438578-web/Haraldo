@@ -80,7 +80,7 @@ export default function HomePage() {
           aria-label="Call Altamonte AC"
         >
           <a
-            href="tel:4074891864"
+            href="tel:4074891834"
             onClick={() => trackEvent('phone_click')}
             className="flex items-center gap-2 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-6 py-4 rounded-full shadow-2xl hover:shadow-red-500/50 transition-all duration-300 transform hover:scale-105"
           >
