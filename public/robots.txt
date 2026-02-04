@@ -1,1 +1,25 @@
-https://orlandoaircond.com/robots.txt
+# robots.txt for Altamonte AC - HVAC Services
+# https://orlandoaircond.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://orlandoaircond.com/sitemap.xml
+
+# Disallow admin and private areas (if any)
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /private/
+
+# Allow all images
+User-agent: Googlebot-Image
+Allow: /
+
+# Allow all videos
+User-agent: Googlebot-Video
+Allow: /
+
+# Crawl-delay for good behavior
+Crawl-delay: 1
