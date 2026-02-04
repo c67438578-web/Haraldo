@@ -3,9 +3,16 @@ import { Snowflake, Phone, MessageCircle, Clock } from 'lucide-react'
 import Header from '../components/Header' 
 
 export const metadata = {
-  title: 'Orlando AC Repair & Installation | Same Day Service 24/7',
-  description: 'Professional air conditioning repair, installation, and maintenance in Orlando, FL. Same day service guaranteed. Licensed & Insured. Call (407) 489-1834.',
-  keywords: ['AC Repair Orlando', 'HVAC Orlando', 'Air Conditioning Installation Orlando', 'Emergency AC Repair FL'],
+  // Título atualizado para incluir as duas áreas principais
+  title: 'AC Repair Orlando & Altamonte Springs | Same Day Service 24/7',
+  description: 'Professional air conditioning repair, installation, and maintenance in Orlando and Altamonte Springs, FL. 28+ years of experience. Call (407) 489-1834.',
+  keywords: [
+    'AC Repair Orlando', 
+    'AC Repair Altamonte Springs', 
+    'HVAC Orlando', 
+    'Air Conditioning Installation Altamonte Springs',
+    'Emergency AC Repair FL'
+  ],
   alternates: { canonical: 'https://orlandoaircond.com' },
 }
 
@@ -13,11 +20,11 @@ export default function RootLayout({ children }) {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "HVACBusiness",
-    "name": "Orlando AC",
+    "name": "Altamonte AC & Orlando Repair", // Nome atualizado para abranger as áreas
     "image": "https://agzxythrwhlpvptlsepv.supabase.co/storage/v1/object/public/Orlando%20Air%20cond/C79E6ABC-4BBF-44C8-91EF-EACB8E43CD3F.png",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "123 Orange Ave", 
+      "streetAddress": "123 Orange Ave", // Se você tiver o endereço de Altamonte, troque aqui
       "addressLocality": "Orlando",
       "addressRegion": "FL",
       "postalCode": "32801",
@@ -34,7 +41,13 @@ export default function RootLayout({ children }) {
         "closes": "23:59"
       }
     ],
-    "areaServed": "Orlando, FL"
+    // ÁREA SERVIDA ATUALIZADA
+    "areaServed": [
+      { "@type": "City", "name": "Orlando" },
+      { "@type": "City", "name": "Altamonte Springs" },
+      { "@type": "City", "name": "Winter Park" },
+      { "@type": "City", "name": "Casselberry" }
+    ]
   };
 
   return (
@@ -52,7 +65,7 @@ export default function RootLayout({ children }) {
           <div className="container mx-auto px-4 flex justify-between items-center">
             <div className="flex items-center gap-2">
               <Clock size={14} className="text-blue-300" />
-              <span>24/7 Emergency Service Available</span>
+              <span>24/7 Emergency Service in Orlando & Altamonte</span>
             </div>
             <div className="flex gap-4 font-bold">
               <a href="tel:14074891834" className="hover:text-blue-300 transition flex items-center gap-1">
@@ -70,7 +83,8 @@ export default function RootLayout({ children }) {
         <footer className="bg-gray-900 text-white pt-16 pb-8 text-center">
           <div className="container mx-auto px-4">
             <Snowflake className="w-10 h-10 text-blue-500 mx-auto mb-6" />
-            <p className="text-gray-400 mb-4">&copy; {new Date().getFullYear()} Orlando AC. All rights reserved.</p>
+            <p className="text-gray-400 mb-2">Serving Orlando, Altamonte Springs & Surrounding Areas</p>
+            <p className="text-gray-500 text-sm mb-4">&copy; {new Date().getFullYear()} Orlando AC. All rights reserved.</p>
           </div>
         </footer>
 
