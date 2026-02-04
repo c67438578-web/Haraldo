@@ -196,7 +196,7 @@ export default function HomePage() {
                 <h2 className="text-4xl font-black text-gray-900 mb-4">Professional & Reliable HVAC Services</h2>
                 <div className="h-1 w-20 bg-gradient-to-r from-blue-600 to-blue-400 mb-6"></div>
                 <p className="text-gray-600 leading-relaxed mb-6 text-lg">
-                  Call us at <strong className="text-blue-600 text-xl">(407) 489-1864</strong> anytime. We answer 24/7 to schedule service for your comfort and peace of mind.
+                  Call us at <strong className="text-blue-600 text-xl">(407) 489-1834</strong> anytime. We answer 24/7 to schedule service for your comfort and peace of mind.
                 </p>
                 <a href="#about" className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-8 py-4 rounded-lg font-bold transition-all transform hover:scale-105 shadow-lg hover:shadow-blue-500/50">
                   Learn More About Us
