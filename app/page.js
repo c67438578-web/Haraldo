@@ -26,31 +26,31 @@ export default function HomePage() {
   };
 
   const services = [
-    { icon: <Wind className="w-12 h-12" />, title: "Indoor Air Quality", desc: "Breathing well is something we tend to take for granted, but for many clean air is essential." },
-    { icon: <Wrench className="w-12 h-12" />, title: "A/C Service", desc: "We service all makes, models, styles, and ages of A/C units." },
-    { icon: <Shield className="w-12 h-12" />, title: "Replacement Estimate", desc: "For more information, contact Orlando AC at (407) 489-1864" }
+    { icon: <Wind className="w-12 h-12" />, title: "Indoor Air Quality Solutions", desc: "Clean air isn't a luxury - it's essential for your health and comfort at home." },
+    { icon: <Wrench className="w-12 h-12" />, title: "Complete AC Service", desc: "We service all makes, models, and types of residential and commercial cooling systems." },
+    { icon: <Shield className="w-12 h-12" />, title: "Free Replacement Estimates", desc: "Get your no-obligation quote today - call us at (407) 489-1864" }
   ];
 
   const reviews = [
-    { name: "Sarah Mitchell", text: "They are always very professional. I have used this company multiple times for my personal property and my rental and have always had a good experience." },
-    { name: "James Rodriguez", text: "Recently switched companies and decided to give Orlando AC a try. The difference was night and day. The service was by far the most comprehensive." },
-    { name: "Emily Chen", text: "We replaced an old system and I'm very pleased with the whole process. The technicians are professional and reliable." }
+    { name: "Sarah Mitchell", text: "Always professional and reliable. I've used this company multiple times for both my home and rental properties - consistently excellent experience." },
+    { name: "James Rodriguez", text: "Recently switched from another company and tried Altamonte AC. The difference was incredible. The service was by far the most thorough I've experienced." },
+    { name: "Emily Chen", text: "We replaced an outdated system and I'm extremely satisfied with the entire process. The technicians are true professionals and completely trustworthy." }
   ];
 
   const brands = ["Lennox", "Trane", "American Standard", "Rheem", "York", "Carrier", "Bryant", "Ruud", "Goodman", "Daikin", "Honeywell", "Bosch"];
 
   const stats = [
-    { number: "28+", label: "Years of Service", icon: <Award className="w-8 h-8" /> },
+    { number: "28+", label: "Years of Excellence", icon: <Award className="w-8 h-8" /> },
     { number: "15,000+", label: "Happy Customers", icon: <Users className="w-8 h-8" /> },
-    { number: "98%", label: "Satisfaction Rate", icon: <ThumbsUp className="w-8 h-8" /> },
-    { number: "24/7", label: "Emergency Support", icon: <Clock className="w-8 h-8" /> }
+    { number: "98%", label: "Customer Satisfaction", icon: <ThumbsUp className="w-8 h-8" /> },
+    { number: "24/7", label: "Emergency Service", icon: <Clock className="w-8 h-8" /> }
   ];
 
   const whyChooseUs = [
-    { icon: <BadgeCheck className="w-10 h-10" />, title: "Licensed & Certified", desc: "Fully licensed  and insured professionals" },
-    { icon: <Zap className="w-10 h-10" />, title: "Same Day Service", desc: "Fast response times for your urgent needs" },
-    { icon: <TrendingUp className="w-10 h-10" />, title: "Best Prices", desc: "Air Conditioning " },
-    { icon: <Sparkles className="w-10 h-10" />, title: "Quality Guarantee", desc: "100% satisfaction guaranteed on all work" }
+    { icon: <BadgeCheck className="w-10 h-10" />, title: "Licensed & Insured", desc: "Fully certified HVAC professionals you can trust" },
+    { icon: <Zap className="w-10 h-10" />, title: "Same-Day Service Available", desc: "Fast response times when you need us most" },
+    { icon: <TrendingUp className="w-10 h-10" />, title: "Competitive Pricing", desc: "Premium AC services at affordable rates" },
+    { icon: <Sparkles className="w-10 h-10" />, title: "Satisfaction Guaranteed", desc: "100% quality guarantee on every job we complete" }
   ];
 
   const handleNewsletterSubmit = (e) => {
@@ -63,11 +63,11 @@ export default function HomePage() {
   return (
     <>
       <Head>
-        <title>Trusted AC Repair & Installation in Orlando, FL</title>
-        <meta name="description" content="Professional AC repair, installation, and maintenance in Orlando, FL. Over 28 years of trusted HVAC service." />
+        <title>Expert AC Repair & Installation Altamonte Springs, FL | #1 Rated</title>
+        <meta name="description" content="Top-rated AC repair, installation & maintenance in Altamonte Springs, FL. 28+ years of trusted HVAC service. Same-day appointments available. Call (407) 489-1864" />
         <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="Trusted AC Repair & Installation in Orlando, FL" />
-        <meta property="og:description" content="Over 28 years of professional HVAC services in Orlando, FL." />
+        <meta property="og:title" content="Expert AC Repair & Installation Altamonte Springs, FL | #1 Rated" />
+        <meta property="og:description" content="28+ years providing professional HVAC services in Altamonte Springs, FL. Same-day service available." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://orlandoaircond.com" />
       </Head>
@@ -77,7 +77,7 @@ export default function HomePage() {
         <div
           className={`fixed bottom-6 right-6 z-50 transition-all duration-500 ${showFloatingCTA ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'}`}
           role="button"
-          aria-label="Call Orlando AC"
+          aria-label="Call Altamonte AC"
         >
           <a
             href="tel:4074891864"
@@ -105,21 +105,21 @@ export default function HomePage() {
             <div className="max-w-3xl">
               <div className="inline-flex items-center gap-2 bg-gradient-to-r from-yellow-400 to-yellow-500 text-gray-900 px-6 py-3 rounded-full text-sm font-bold mb-6 shadow-lg hover:shadow-yellow-500/50 transition-shadow">
                 <Sparkles className="w-4 h-4" />
-                Air Conditioning
+                Professional Air Conditioning
               </div>
               <h1 className="text-5xl md:text-7xl font-black mb-6 leading-tight">
-                Trusted AC Repair & Installation in <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-200">Orlando</span>
+                #1 Rated AC Experts in <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-200">Altamonte Springs</span>
               </h1>
-              <p className="text-2xl text-blue-100 mb-4 font-semibold">Schedule Now for SAME DAY Service!</p>
+              <p className="text-2xl text-blue-100 mb-4 font-semibold">Schedule Today for SAME DAY Service!</p>
               <p className="text-lg text-blue-200 mb-8 leading-relaxed">
-                Orlando AC is a trusted HVAC company in Orlando, FL. For over 28 years, we’ve delivered reliable AC repair, installation, and maintenance while building long-term customer relationships through exceptional service.
+                Altamonte AC is your trusted HVAC partner in Altamonte Springs, FL. For over 28 years, we've delivered exceptional AC repair, installation, and maintenance services while building lasting relationships with our customers through unmatched quality and reliability.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
                   href="#contact"
                   className="group bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all transform hover:scale-105 shadow-xl hover:shadow-red-500/50 flex items-center justify-center gap-2"
                 >
-                  Contact Us
+                  Get Started
                   <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </a>
                 <a
@@ -134,7 +134,7 @@ export default function HomePage() {
                   href="#services"
                   className="border-2 border-white hover:bg-white hover:text-blue-900 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all text-center"
                 >
-                  Our Services
+                  View Services
                 </a>
               </div>
             </div>
@@ -160,9 +160,9 @@ export default function HomePage() {
         {/* Service Area Banner */}
         <div className="bg-gradient-to-r from-gray-50 to-gray-100 py-8 border-y border-gray-200">
           <div className="max-w-7xl mx-auto px-4 text-center md:text-left">
-            <h2 className="text-2xl font-bold text-gray-900 mb-2">Serving ALL of Orlando and Central Florida</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-2">Serving ALL of Altamonte Springs & Seminole County</h2>
             <p className="text-gray-600">
-              Professional residential and commercial temperature control. From efficiency to indoor air quality, we deliver results.
+              Professional residential and commercial HVAC solutions. From energy efficiency to indoor air quality, we deliver exceptional results every time.
             </p>
           </div>
         </div>
@@ -171,9 +171,9 @@ export default function HomePage() {
         <section className="py-20 bg-white">
           <div className="max-w-7xl mx-auto px-4">
             <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-4">Why Choose Orlando AC?</h2>
+              <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-4">Why Choose Altamonte AC?</h2>
               <div className="h-1 w-24 bg-gradient-to-r from-blue-600 to-blue-400 mx-auto mb-4"></div>
-              <p className="text-gray-600 text-lg">The trusted choice for Orlando homeowners since 1997</p>
+              <p className="text-gray-600 text-lg">The trusted choice for Altamonte Springs homeowners since 1997</p>
             </div>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -193,10 +193,10 @@ export default function HomePage() {
           <div className="max-w-7xl mx-auto px-4">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
-                <h2 className="text-4xl font-black text-gray-900 mb-4">Trusted and Reliable Service</h2>
+                <h2 className="text-4xl font-black text-gray-900 mb-4">Professional & Reliable HVAC Services</h2>
                 <div className="h-1 w-20 bg-gradient-to-r from-blue-600 to-blue-400 mb-6"></div>
                 <p className="text-gray-600 leading-relaxed mb-6 text-lg">
-                  Call us at <strong className="text-blue-600 text-xl">(407) 489-1864</strong> any time. We answer 24/7 to provide scheduling for your comfort.
+                  Call us at <strong className="text-blue-600 text-xl">(407) 489-1864</strong> anytime. We answer 24/7 to schedule service for your comfort and peace of mind.
                 </p>
                 <a href="#about" className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-8 py-4 rounded-lg font-bold transition-all transform hover:scale-105 shadow-lg hover:shadow-blue-500/50">
                   Learn More About Us
@@ -234,9 +234,9 @@ export default function HomePage() {
             <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-yellow-400 to-yellow-500 rounded-full mb-6 shadow-2xl">
               <Mail className="w-10 h-10 text-gray-900" />
             </div>
-            <h2 className="text-4xl md:text-5xl font-black text-white mb-4">Stay Cool with Our Newsletter</h2>
+            <h2 className="text-4xl md:text-5xl font-black text-white mb-4">Stay Cool with Expert Tips & Exclusive Offers</h2>
             <p className="text-blue-100 text-lg mb-8 max-w-2xl mx-auto">
-              Get exclusive HVAC maintenance tips, seasonal specials, and expert advice delivered to your inbox. Plus, receive a special discount on your next service!
+              Get valuable HVAC maintenance tips, seasonal promotions, and expert advice delivered straight to your inbox. Plus, receive a special discount on your next service!
             </p>
             <form onSubmit={handleNewsletterSubmit} className="max-w-md mx-auto">
               <div className="flex flex-col sm:flex-row gap-3">
@@ -266,7 +266,7 @@ export default function HomePage() {
         <section className="py-16 bg-white">
           <div className="max-w-7xl mx-auto px-4">
             <h3 className="text-center text-3xl font-bold text-gray-900 mb-4">We Service All Major Brands</h3>
-            <p className="text-center text-gray-600 mb-12">Trusted by Orlando homeowners for over 28 years</p>
+            <p className="text-center text-gray-600 mb-12">Trusted by Altamonte Springs homeowners for over 28 years</p>
             <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
               {brands.map((brand, i) => (
                 <div key={i} className="bg-gradient-to-br from-gray-50 to-white p-6 rounded-xl shadow-sm hover:shadow-xl flex items-center justify-center border-2 border-gray-100 hover:border-blue-500 transition-all duration-300 transform hover:scale-105">
@@ -281,9 +281,9 @@ export default function HomePage() {
         <section className="py-20 bg-gradient-to-br from-gray-50 to-gray-100">
           <div className="max-w-7xl mx-auto px-4">
             <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-4">Customer Reviews</h2>
+              <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-4">What Our Customers Say</h2>
               <div className="h-1 w-24 bg-gradient-to-r from-blue-600 to-blue-400 mx-auto mb-4"></div>
-              <p className="text-gray-600 text-lg">See why Orlando homeowners trust us for all their AC needs</p>
+              <p className="text-gray-600 text-lg">See why Altamonte Springs residents trust us for all their AC needs</p>
             </div>
             <div className="grid md:grid-cols-3 gap-8">
               {reviews.map((review, i) => (
