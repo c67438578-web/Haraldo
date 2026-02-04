@@ -28,7 +28,7 @@ export default function HomePage() {
   const services = [
     { icon: <Wind className="w-12 h-12" />, title: "Indoor Air Quality Solutions", desc: "Clean air isn't a luxury - it's essential for your health and comfort at home." },
     { icon: <Wrench className="w-12 h-12" />, title: "Complete AC Service", desc: "We service all makes, models, and types of residential and commercial cooling systems." },
-    { icon: <Shield className="w-12 h-12" />, title: "Free Replacement Estimates", desc: "Get your no-obligation quote today - call us at (407) 489-1864" }
+    { icon: <Shield className="w-12 h-12" />, title: "Free Replacement Estimates", desc: "Get your no-obligation quote today - call us at (407) 489-1834" }
   ];
 
   const reviews = [
@@ -64,7 +64,7 @@ export default function HomePage() {
     <>
       <Head>
         <title>Expert AC Repair & Installation Altamonte Springs, FL | #1 Rated</title>
-        <meta name="description" content="Top-rated AC repair, installation & maintenance in Altamonte Springs, FL. 28+ years of trusted HVAC service. Same-day appointments available. Call (407) 489-1864" />
+        <meta name="description" content="Top-rated AC repair, installation & maintenance in Altamonte Springs, FL. 28+ years of trusted HVAC service. Same-day appointments available. Call (407) 489-1834" />
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content="Expert AC Repair & Installation Altamonte Springs, FL | #1 Rated" />
         <meta property="og:description" content="28+ years providing professional HVAC services in Altamonte Springs, FL. Same-day service available." />
